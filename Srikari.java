@@ -1,4 +1,4 @@
-public class Srikari public class Srikari {
+public class Srikari {
     private int birthdayage;
 
     private String birthdaymonth;
@@ -16,5 +16,8 @@ public class Srikari public class Srikari {
     public int getSrikariAmeya(){
         return birthdayage;
     }
-}{
+
+    public String getBdayMonth(){
+        return birthdaymonth;
+    }
 }
